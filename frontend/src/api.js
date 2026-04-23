@@ -3,7 +3,7 @@ import axios from "axios";
 const API = axios.create({
   baseURL:
     import.meta.env.MODE === "production"
-      ? "https://finora-backend-red.vercel.app/"
+      ? "https://try-finora-backend.vercel.app/"
       : "http://localhost:5000",
   withCredentials: true,
 });
